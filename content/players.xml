@@ -1,0 +1,79 @@
+<players nameimageroot="gfx/ui/boss/" portraitroot="gfx/ui/stage/" root="gfx/characters/costumes/">
+	<player
+		hp="6" name="MBC_Job"
+		nameimage="MBC_playername_01_job.png" portrait="MBC_playerportrait_01_job.png" skin="MBC_character_01_job.png" skinColor="-1"
+		birthright="Solace"
+	/>
+	
+	<player
+		hp="2" armor="2" name="MBC_Job_B"
+		nameimage="MBC_playername_01_job.png" portrait="MBC_playerportrait_01b_job.png" skin="MBC_character_01b_job.png" skinColor="-1"
+		birthright="Preservation"
+		bSkinParent="MBC_Job"
+	/>
+	
+	<player
+		hp="4" armor="2" name="MBC_John"
+		nameimage="MBC_playername_02_john.png" portrait="MBC_playerportrait_02_john.png" skin="MBC_character_02_john.png" skinColor="-1"
+		birthright="Wetter tears"
+	/>
+	
+	<player
+		hp="2" armor="4" canShoot="false" name="MBC_John_B"
+		nameimage="MBC_playername_02_john.png" portrait="MBC_playerportrait_02b_john.png" skin="MBC_character_02b_john.png" skinColor="-1"
+		birthright="My urn runneth over"
+		bSkinParent="MBC_John"
+	/>
+	
+	<player
+		hp="2" armor="6" name="MBC_David"
+		nameimage="MBC_playername_03_david.png" portrait="MBC_playerportrait_03_david.png" skin="MBC_character_03_david.png" skinColor="-1"
+		birthright="Giant-slayer"
+	/>
+	
+	<player
+		armor="2" canShoot="false" name="MBC_David_B"
+		nameimage="MBC_playername_03_david.png" portrait="MBC_playerportrait_03b_david.png" skin="MBC_character_03b_david.png" skinColor="-1"
+		birthright="Divine protection"
+		bSkinParent="MBC_David"
+	/>
+	
+	<player
+		hp="6" name="MBC_Peter"
+		nameimage="MBC_playername_04_peter.png" portrait="MBC_playerportrait_04_peter.png" skin="MBC_character_04_peter.png" skinColor="-1"
+		birthright="Denial"
+	/>
+	
+	<player
+		armor="2" keys="1" name="MBC_Peter_B"
+		nameimage="MBC_playername_04_peter.png" portrait="MBC_playerportrait_04b_peter.png" skin="MBC_character_04b_peter.png" skinColor="-1"
+		birthright="Keys to the kingdom"
+		bSkinParent="MBC_Peter"
+	/>
+	
+	<player
+		hp="6" name="MBC_Adam"
+		nameimage="MBC_playername_05_adam.png" portrait="MBC_playerportrait_05_adam.png" skin="MBC_character_05_adam.png" skinColor="-1"
+		birthright="Rigged deck"
+	/>
+	
+	<player
+		hp="6" name="MBC_Adam_B"
+		nameimage="MBC_playername_05_adam.png" portrait="MBC_playerportrait_05b_adam.png" skin="MBC_character_05b_adam.png" skinColor="-1"
+		birthright="Skill tree"
+		bSkinParent="MBC_Adam"
+	/>
+	
+	<player
+		armor="12" name="MBC_Golem"
+		nameimage="MBC_playername_06_golem.png" portrait="MBC_playerportrait_06_golem.png" skin="MBC_character_06_golem.png" skinColor="-1"
+		birthright="More charge"
+	/>
+	
+	<player
+		black="12" keys="5" name="MBC_Golem_B"
+		nameimage="MBC_playername_06_golem.png" portrait="MBC_playerportrait_06b_golem.png" skin="MBC_character_06b_golem.png" skinColor="-1"
+		birthright="Structural integrity"
+		bSkinParent="MBC_Golem"
+	/>
+</players>

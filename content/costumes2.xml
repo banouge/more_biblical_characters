@@ -1,0 +1,19 @@
+<costumes anm2root="gfx/characters/">
+	<costume anm2path="MBC_character_01_job_hair.anm2" type="none" priority="99" />
+	<costume anm2path="MBC_character_01b_job_hair.anm2" type="none" priority="99" />
+	
+	<costume anm2path="MBC_character_02_john_hair.anm2" type="none" priority="99" />
+	<costume anm2path="MBC_character_02b_john_hair.anm2" type="none" priority="99" />
+	
+	<costume anm2path="MBC_character_03_david_hair.anm2" type="none" priority="99" />
+	<costume anm2path="MBC_character_03b_david_hair.anm2" type="none" priority="99" />
+	
+	<costume anm2path="MBC_character_04_peter_hair.anm2" type="none" priority="99" />
+	<costume anm2path="MBC_character_04b_peter_hair.anm2" type="none" priority="99" />
+	
+	<costume anm2path="MBC_character_05_adam_hair.anm2" type="none" priority="99" />
+	<costume anm2path="MBC_character_05b_adam_hair.anm2" type="none" priority="99" />
+	
+	<costume anm2path="MBC_character_06_golem_hair.anm2" type="none" priority="99" />
+	<costume anm2path="MBC_character_06b_golem_hair.anm2" type="none" priority="99" />
+</costumes>

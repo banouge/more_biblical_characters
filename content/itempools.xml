@@ -1,0 +1,37 @@
+<ItemPools>
+	<Pool Name="treasure">
+		<Item Name="Hand of Cards" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<Item Name="EXP Bar" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+	</Pool>
+	
+	<Pool Name="shop">
+		<Item Name="Sheathed Sword" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<Item Name="Rechargeable Mantle" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<Item Name="Makeshift Mantle" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+	</Pool>
+	
+	<Pool Name="devil">
+		<Item Name="Book of Sacrifice" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+	</Pool>
+	
+	<Pool Name="angel">
+		<Item Name="Book of Job" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+	</Pool>
+	
+	<Pool Name="library">
+		<Item Name="Book of Job" Weight="1" DecreaseBy="0.1" RemoveOn="0.1" />
+		<Item Name="Book of Sacrifice" Weight="1" DecreaseBy="0.1" RemoveOn="0.1" />
+	</Pool>
+	
+	<Pool Name="keyMaster">
+		<Item Name="Makeshift Mantle" Weight="1" DecreaseBy="0.5" RemoveOn="0.1" />
+	</Pool>
+	
+	<Pool Name="batteryBum">
+		<Item Name="Rechargeable Mantle" Weight="1" DecreaseBy="0.5" RemoveOn="0.1" />
+	</Pool>
+	
+	<Pool Name="bombBum">
+		<Item Name="Makeshift Mantle" Weight="1" DecreaseBy="0.5" RemoveOn="0.1" />
+	</Pool>
+</ItemPools>

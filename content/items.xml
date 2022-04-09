@@ -1,0 +1,36 @@
+<items gfxroot="gfx/items/" version="1">
+	<active
+		name="Book of Job" description="Be patient" gfx="MBC_Book_of_Job.png" quality="3"
+		tags="book nolostbr" maxcharges="12" chargetype="normal"
+	/>
+	
+	<active
+		name="Book of Sacrifice" description="Loss is gain" gfx="MBC_Book_of_Sacrifice.png" quality="4"
+		tags="book offensive nocantrip" maxcharges="12" chargetype="normal" devilprice="2"
+	/>
+	
+	<passive
+		name="Sheathed Sword" description="Live by the sword?" gfx="MBC_Sheathed_Sword.png" quality="2"
+		cache="" tags="nolostbr nocantrip"
+	/>
+	
+	<passive
+		name="Hand of Cards" description="Play the hand you're dealt" gfx="MBC_Hand_of_Cards.png" quality="3"
+		cache="" tags="offensive nocantrip"
+	/>
+	
+	<passive
+		name="EXP Bar" description="Time to grind" gfx="MBC_EXP_Bar.png" quality="3"
+		cache="" tags="offensive nocantrip"
+	/>
+	
+	<passive
+		name="Rechargeable Mantle" description="Can I borrow your charger?" gfx="MBC_Rechargeable_Mantle.png" quality="4"
+		cache="" tags="offensive nocantrip"
+	/>
+	
+	<passive
+		name="Makeshift Mantle" description="Cobbled together" gfx="MBC_Makeshift_Mantle.png" quality="4"
+		cache="" tags="offensive nocantrip"
+	/>
+</items>
