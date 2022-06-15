@@ -25,7 +25,7 @@
 	/>
 	
 	<passive
-		name="Rechargeable Mantle" description="Can I borrow your charger?" gfx="MBC_Rechargeable_Mantle.png" quality="4"
+		name="Rechargeable Mantle" description="Can I borrow your charger?" gfx="MBC_Rechargeable_Mantle.png" quality="3"
 		cache="" tags="offensive nocantrip"
 	/>
 	

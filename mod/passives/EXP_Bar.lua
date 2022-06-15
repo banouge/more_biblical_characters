@@ -169,7 +169,7 @@ function passive:onPostRender()
 			
 			if not player:GetData().mbc.expBarProgress then
 				player:GetData().mbc.expBarProgress = 0
-				player:GetData().mbc.expBarLevel = 1
+				player:GetData().mbc.expBarLevel = passive.mbc:getFloor() * 2 - 1
 			end
 			
 			passive.sprites[playerIndex]:SetFrame(math.floor(player:GetData().mbc.expBarProgress * 12 / (player:GetData().mbc.expBarLevel * passive.threshold)))
