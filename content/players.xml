@@ -66,13 +66,13 @@
 	
 	<player
 		armor="12" name="MBC_Golem"
-		nameimage="MBC_playername_06_golem.png" portrait="MBC_playerportrait_06_golem.png" skin="MBC_character_06_golem.png" skinColor="-1"
+		nameimage="MBC_playername_06_golem.png" portrait="MBC_playerportrait_06_golem.png" skin="MBC_character_06_golem.png" skinColor="5"
 		birthright="More charge"
 	/>
 	
 	<player
 		black="12" keys="5" name="MBC_Golem_B"
-		nameimage="MBC_playername_06_golem.png" portrait="MBC_playerportrait_06b_golem.png" skin="MBC_character_06b_golem.png" skinColor="-1"
+		nameimage="MBC_playername_06_golem.png" portrait="MBC_playerportrait_06b_golem.png" skin="MBC_character_06b_golem.png" skinColor="5"
 		birthright="Structural integrity"
 		bSkinParent="MBC_Golem"
 	/>

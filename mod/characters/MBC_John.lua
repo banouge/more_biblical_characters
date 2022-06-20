@@ -48,6 +48,10 @@ function character:onPlayerSpawn(player)
 	character.mbc:addTrinket(player, character.trinket)
 	character.mbc:addPill(player, character.pill)
 	
+	character:onPlayerReload(player)
+end
+
+function character:onPlayerReload(player)
 	character.mbc.mod:AddCallback(ModCallbacks.MC_POST_FIRE_TEAR, character.onPostFireTear)
 	character.mbc.mod:AddCallback(ModCallbacks.MC_POST_TEAR_UPDATE, character.onPostTearUpdate)
 end

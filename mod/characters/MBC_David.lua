@@ -82,13 +82,20 @@ function character:onPlayerSpawn(player)
 	character.mbc:addCard(player, character.card)
 	character.mbc:addSize(player, character.stats.size)
 	
-	character.mbc.mod:AddCallback(ModCallbacks.MC_POST_NPC_DEATH, character.onPostNpcDeath)
-	
 	player:GetData().mbc.davidBirthrightBonuses = {
 		damage = 0,
 		tears = 0,
 		luck = 0
 	}
+	
+	character:onPlayerReload(player)
+end
+
+function character:onPlayerReload(player)
+	character.mbc.mod:AddCallback(ModCallbacks.MC_POST_NPC_DEATH, character.onPostNpcDeath)
+	
+	player:AddCacheFlags(CacheFlag.CACHE_FIREDELAY | CacheFlag.CACHE_DAMAGE | CacheFlag.CACHE_LUCK)
+	player:EvaluateItems()
 end
 
 -- add special callbacks

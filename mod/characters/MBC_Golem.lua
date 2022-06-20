@@ -45,6 +45,10 @@ function character:onPlayerSpawn(player)
 	
 	player:GetData().mbc.maxSoulHearts = 12
 	
+	character:onPlayerReload(player)
+end
+
+function character:onPlayerReload(player)
 	character.mbc.mod:AddCallback(ModCallbacks.MC_POST_PLAYER_UPDATE, character.onPostPlayerUpdate, 0)
 	character.mbc.mod:AddCallback(ModCallbacks.MC_POST_NEW_LEVEL, character.onPostNewLevel)
 	character.mbc.mod:AddCallback(ModCallbacks.MC_PRE_ENTITY_SPAWN, character.onPreEntitySpawn)

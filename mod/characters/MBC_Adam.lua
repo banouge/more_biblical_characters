@@ -34,6 +34,11 @@ function character:onPlayerSpawn(player)
 	
 	player:ClearCostumes()
 	player:AddNullCostume(character.hair)
+	
+	character:onPlayerReload(player)
+end
+
+function character:onPlayerReload(player)
 end
 
 -- add description if eid mod is running

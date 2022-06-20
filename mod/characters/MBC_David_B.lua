@@ -87,6 +87,10 @@ function character:onPlayerSpawn(player)
 		character.mbc:addFamiliar(player, familiar)
 	end
 	
+	character:onPlayerReload(player)
+end
+
+function character:onPlayerReload(player)
 	character.mbc.mod:AddCallback(ModCallbacks.MC_POST_PLAYER_UPDATE, character.onPostPlayerUpdate, 0)
 	character.mbc.mod:AddCallback(ModCallbacks.MC_USE_ITEM, character.onUseItem)
 	character.mbc.mod:AddCallback(ModCallbacks.MC_ENTITY_TAKE_DMG, character.onEntityTakeDmg)

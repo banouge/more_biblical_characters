@@ -46,6 +46,11 @@ function character:onPlayerSpawn(player)
 	
 	character.mbc:addPocketActive(player, character.pocketActive)
 	character.mbc:addTrinket(player, character.trinket)
+	
+	character:onPlayerReload(player)
+end
+
+function character:onPlayerReload(player)
 end
 
 -- add description if eid mod is running

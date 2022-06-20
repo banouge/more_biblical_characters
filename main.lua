@@ -200,7 +200,14 @@ function mbc:onPostGameStarted(didContinue)
 			mbc.saveData = json.decode(mbc.mod:LoadData())
 			
 			for playerIndex = 0, Game():GetNumPlayers() - 1 do
-				Isaac.GetPlayer(playerIndex):GetData().mbc = mbc.saveData["" .. playerIndex]
+				local player = Isaac.GetPlayer(playerIndex)
+				local playerType = player:GetPlayerType()
+				
+				player:GetData().mbc = mbc.saveData["" .. playerIndex]
+				
+				if mbc.characters.modules[playerType] then
+					mbc.characters.modules[playerType]:onPlayerReload(player)
+				end
 			end
 		end
 	end
