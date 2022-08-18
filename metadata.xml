@@ -4,8 +4,8 @@
     <directory>more_biblical_characters</directory>
     <id>2775727529</id>
     <description></description>
-    <version>1.1</version>
-    <visibility>Friends Only</visibility>
+    <version>1.2</version>
+    <visibility>Public</visibility>
     <tag id="Lua"/>
     <tag id="Items"/>
     <tag id="Active Items"/>
